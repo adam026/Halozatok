@@ -13,17 +13,24 @@ html{
     max-width:100%;
     font-size: 14px;
     margin: auto;
-    background: linear-gradient(180deg, #000000 6%, #02426f 30%, #00bcbc 75%, #59e6e6 100%);
+    #background: linear-gradient(180deg, #000000 6%, #02426f 30%, #00bcbc 75%, #59e6e6 100%, url("IMG/hatter.jpg"));
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+	
 }
 .content{
-	float: right;
-	text-align: center-left
+	
 }
 body {
     overflow:auto;
+	background-image: url("IMG/hatter1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:100%; 
+    max-width:100%;
 }
 header{
     width: 100%;
